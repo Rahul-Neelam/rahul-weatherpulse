@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherPulse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>WeatherPulse</h1>
+    
+  </header>
+
+  <main>
+    <section id="current-weather">
+      <!-- Current weather information will be displayed here -->
+      <img src="" alt="" class="main-weather-image">
+    </section>
+
+    <section id="forecast" class="hidden">
+      <!-- Weather forecast information will be displayed here -->
+    </section>
+
+    <div id="search-container">
+      <input type="text" id="location-input" placeholder="Enter location">
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="error-message" class="hidden"></div>
+  </main>
+
+  <footer>
+    <p class="p1">&copy; WeatherPulse</p>
+  </footer>
+  <style>
+    p.p1 {
+      font-family: Lucida Handwriting, Cursive; font-style: oblique;
+    }
+  </style>
+  
+  <script src="app.js"></script>
+</body>
+</html>
